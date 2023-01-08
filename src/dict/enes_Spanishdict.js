@@ -10,7 +10,7 @@ class esen_Spanishdict {
         let locale = await api.locale();
         if (locale.indexOf('CN') != -1) return 'spanishdict西英词典';
         if (locale.indexOf('TW') != -1) return 'spanishdict西英词典';
-        return 'spanishdict.com ES->EN Dictionary';
+        return 'spanishdict.com EN->ES Dictionary';
     }
 
     setOptions(options) {
