@@ -1,5 +1,5 @@
 /* global api */
-class esen_Spanishdict {
+class enes_Spanishdict {
     constructor(options) {
         this.options = options;
         this.maxexample = 2;
