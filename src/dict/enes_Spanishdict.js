@@ -61,7 +61,7 @@ class enes_Spanishdict {
             return null;
         }
 
-        let contents = doc.querySelectorAll('#dictionary-neodict-es') || [];
+        let contents = doc.querySelectorAll('#dictionary-neodict-en') || [];
         if (contents.length == 0) return null;
 
         let definition = '';
